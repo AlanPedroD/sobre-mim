@@ -4,6 +4,8 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
+    color: #fff;
 }
 
 html{
@@ -13,6 +15,10 @@ html{
 body{
     background-color: #1a1a1a;
     transition: .3s;
+}
+
+.body-light{
+    background-color: #6F7A8A;
 }
 
 .cabecalho{
@@ -56,6 +62,10 @@ body{
     border-radius: 10px;
 }
 
+.cabecalho-light{
+    background-color: #333B50;
+}
+
 .cabecalho-light ul li a{
     color: aliceblue;
 }
@@ -72,20 +82,15 @@ body{
     border-radius: 50%;
     border: none;
     background-color: #000;
-    color: #fff;
     cursor: pointer;
-}
-
-.btn-light{
-    background-color: #e37218;
-}
+} 
 
 .light-theme{
-    background-color: #1a1a1a;
+    background-color: #6F7A8A;
 }
 
 .dark-theme{
-    background-color: #6F7A8A;
+    background-color: #1a1a1a;
 }
 
 .cabecalho ul li a:hover{
@@ -103,9 +108,8 @@ main{
     display: flex;
     justify-content: center;
     padding-top: 100px;
-    color: #fff;
     gap: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .conteudo-descricao{
@@ -132,9 +136,6 @@ main{
     margin-bottom: 10px;
 }
 
-.conteudo-descricao .paragrafo-ligth{
-    color: #000;
-}
 
 .foto-perfil{
     border-radius: 10px;
@@ -148,26 +149,20 @@ main{
     border-radius: 50%;
 }
 
-.paragrafo-light{
-    color: #000;
-}
-
 .meus-projetos{
-    color:aliceblue;
     text-align: center;
     border: 1px solid lightgreen;
     max-width: 1152px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 30px;
+    margin: 0 auto 80px;
     width: 80%;
 }
 
 .meus-projetos h2{
     padding: 5px;
 }
-
 
 section{
     max-width: 1440px;
@@ -178,7 +173,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     gap: 10px;
     margin-bottom: 10px;
 }
@@ -224,7 +218,6 @@ section{
 footer{
     padding: 20px;
     background-color: #273035af;
-    color: #fff
 }
 
 footer p{
@@ -268,7 +261,6 @@ footer p{
     }
 }
 
-
 @media(max-width: 500px){
     main{
         padding-top: 140px;
@@ -281,6 +273,9 @@ footer p{
     }
     .foto-perfil, .foto-perfil img{
         border-radius: 0%;
+    }
+    .conteudo-texto{
+        padding-top: 44px;
     }
 }
 
@@ -298,5 +293,3 @@ footer p{
         padding-top: 150px;
     }
 }
-
-
