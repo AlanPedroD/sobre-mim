@@ -4,5 +4,5 @@
 - HTML
 - CSS
 - JAVASCRIPT
-### [Veja o projeto completo clicando aqui](https://sobre-mim-eosin.vercel.app/)
+### [Veja o projeto completo clicando aqui](https://sobre-mim-02.vercel.app/)
 
